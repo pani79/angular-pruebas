@@ -4,3 +4,8 @@ npm install --save @ng-bootstrap/ng-bootstrap
 // (no int) npm install bootstrap
 
 ng g c componentes/interfaz/menus/menuPrincipal
+
+ng g c componentes/paginas/home
+ng g c componentes/paginas/sobre_el_proyecto
+
+ng g c componentes/pruebas/charts/

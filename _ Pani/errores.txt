@@ -1,0 +1,4 @@
+npm i --global @angular/cli@latest
+(por la version del cli para usar angular 8)
+
+tambien actualizar NODE
