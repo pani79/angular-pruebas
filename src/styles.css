@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-body{ font-family: 'Lato', sans-serif !important; background-color: darkblue; }
+body{ 
+    font-family: 'Lato', sans-serif !important;
+    line-height: 1.3; 
+    background-color: darkblue; 
+}
 
 .container{ 
     background-color: white;

@@ -1,11 +1,33 @@
-<ul class="menuPrincipal">
-    <li><a routerLink="home">home</a></li>
-    <li><a routerLink="sobreElProyecto">Proyecto</a></li>
-    <li><a routerLink="pruebas">
-        Pruebas
-        <ul>
-            <li>FIREBASE - crud</li>
-            <li>CHARTS</li>
-        </ul>
-    </a></li>
-</ul>
+<nav>
+    <ul class="menuPrincipal">
+        <li><a routerLink="home">home</a></li>
+        <li><a routerLink="sobreElProyecto">Proyecto</a></li>
+        <li>
+            <a routerLink="pruebas">
+            Pruebas
+            <ul>
+                <li><a routerLink="firebase/crud">FIREBASE - crud</a></li>
+                <li>CHARTS</li>
+            </ul>
+            </a>
+        </li>
+        
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">P Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
+    </ul>
+</nav>
+
+<!-- 
+    https://www.w3schools.com/howto/howto_js_sidenav.asp
+
+    https://www.w3schools.com/howto/howto_css_dropdown.asp
+    (el tema del css)
+ -->
