@@ -9,6 +9,7 @@ import { MenuPrincipalComponent } from './componentes/interfaz/menus/menu-princi
 import { HomeComponent } from './componentes/paginas/home/home.component';
 import { SobreElProyectoComponent } from './componentes/paginas/sobre-el-proyecto/sobre-el-proyecto.component';
 import { CrudComponent } from './componentes/librerias/firebase/crud/crud.component';
+import { Ng2PrismComponent } from './componentes/librerias/ng2-prism/ng2-prism.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CrudComponent } from './componentes/librerias/firebase/crud/crud.compon
     MenuPrincipalComponent,
     HomeComponent,
     SobreElProyectoComponent,
-    CrudComponent
+    CrudComponent,
+    Ng2PrismComponent
   ],
   imports: [
     BrowserModule,

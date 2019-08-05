@@ -1,7 +1,7 @@
 <nav>
     <ul class="menuPrincipal">
-        <li><a routerLink="home">home</a></li>
-        <li><a routerLink="sobreElProyecto">Proyecto</a></li>
+        <li><a routerLink="home" placement="top" ngbTooltip="Tooltip on top">home</a></li>
+        <li  placement="top" ngbTooltip="Tooltip on top"><a routerLink="sobreElProyecto">Proyecto</a></li>
         <li>
             <a routerLink="pruebas">
             Pruebas
@@ -12,14 +12,26 @@
             </a>
         </li>
         
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown"> -->
+      <li ngbDropdown class="d-inline-block">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">P Dropdown</a>
-        <div class="dropdown-menu">
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
+      <li>
+        x
+        <div ngbDropdown class="d-inline-block">
+          <div ngbDropdownToggle>Toggle dropdown</div>
+          <div ngbDropdownMenu>
+            <div ngbDropdownItem>Action - 1</div>
+            <button ngbDropdownItem>Another Action</button>
+            <button ngbDropdownItem>Something else is here</button>
+          </div>
         </div>
       </li>
     </ul>

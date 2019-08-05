@@ -6,6 +6,7 @@ npm install --save @ng-bootstrap/ng-bootstrap
 ng g c componentes/interfaz/menus/menuPrincipal
 
 ng g c componentes/librerias/firebase/crud
+ng g c componentes/librerias/ng2-prism
 
 ng g c componentes/paginas/home
 ng g c componentes/paginas/sobre_el_proyecto
