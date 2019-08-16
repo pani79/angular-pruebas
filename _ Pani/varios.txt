@@ -11,4 +11,5 @@ ng g c componentes/librerias/ng2-prism
 ng g c componentes/paginas/home
 ng g c componentes/paginas/sobre_el_proyecto
 
+
 ng g c componentes/pruebas/charts/
